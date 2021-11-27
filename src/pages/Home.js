@@ -1,4 +1,5 @@
 import Stack from '@mui/material/Stack';
+import PostReactions from 'components/PostReactions';
 
 const Home = () => {
     return (
@@ -6,6 +7,7 @@ const Home = () => {
             <Stack flex={1}>
                 {/* This is the place for story list and post list */}
                 Timeline
+                <PostReactions />
             </Stack>
             <Stack width="300px">
                 {/* All Sidebar related things go here */}
